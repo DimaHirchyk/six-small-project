@@ -58,14 +58,16 @@
 }
 
 .users_list li .action {
-  width: 28px;
-  height: 28px;
   opacity: 0.3;
   cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
 
 .users_list li .action:hover {
   opacity: 0.8;
+  border: none;
+  background-color: transparent;
 }
 
 .users_list li h3 {
