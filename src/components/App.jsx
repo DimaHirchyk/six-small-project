@@ -2,6 +2,7 @@ import "./App.css";
 import Counter from "./counter/Counter";
 import Modal from "./modal/Modal";
 import Questions from "./questions/Questions";
+import User from "./user/User";
 
 export default function App() {
   return (
@@ -12,6 +13,8 @@ export default function App() {
       <Counter />
       <h2>Питання</h2>
       <Questions />
+      <h2>додавання користувачів</h2>
+      <User />
     </>
   );
 }
