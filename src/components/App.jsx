@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./counter/Counter";
+import CurrentyConvector from "./currenty-convector/currenty-convector";
 import Modal from "./modal/Modal";
 import Questions from "./questions/Questions";
 import User from "./user/User";
@@ -15,6 +16,8 @@ export default function App() {
       <Questions />
       <h2>додавання користувачів</h2>
       <User />
+      <h2>Конвектор валют</h2>
+      <CurrentyConvector />
     </>
   );
 }
